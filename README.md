@@ -1,1 +1,7 @@
 # Accuracy-Comparison-between-Five-Machine-Learning-Algorithms-for-Financial-Risk-Evaluation
+
+In this study, I evaluate the performance of various machine learning classifiers on a credit data prediction task, focusing on the impact of feature reduction and synthetic data augmentation using SMOTE (Synthetic Minority Over-sampling Technique). I first identify the optimal hyperparameters for each classifier through an exhaustive RandomizedSearchCV process, allowing me to fine-tune models for improved accuracy and generalization.
+
+To address class imbalance, I apply SMOTE to generate synthetic samples for the minority class, ensuring a more balanced training dataset. I then compare model performance with and without SMOTE, using a consistent set of hyperparameters for each scenario. The dataset is split into training and test sets with an 80:20 ratio, but for achieving the best accuracy, I adjust the split to 70:30.
+
+Additionally, I investigate the effect of feature reduction by selecting a subset of the most informative features through feature importance analysis and dimensionality reduction techniques. By analyzing the results, I aim to understand how feature reduction and SMOTE influence the efficacy of different classifiers, providing insights into the trade-offs between model complexity, data augmentation, and feature selection. This approach helps me in developing more robust predictive models for credit scoring, balancing between model performance and computational efficiency.
